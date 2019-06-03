@@ -1,5 +1,8 @@
 package com.zipcodewilmington.assessment1.part2;
 
+import java.lang.reflect.Array;
+import java.util.*;
+
 /**
  * Created by leon on 2/16/18.
  */
@@ -10,7 +13,18 @@ public class MultiplesDeleter {
      * given an array of integers, named `ints` return an identical array with evens removed
      */
     public Integer[] deleteEvens(Integer[] ints) {
-        return null;
+        Integer[] output = new Integer[ints.length];
+        int index = 0;
+        for(int elements : ints) {
+            if(elements % 2 != 0) {
+                output[index] = elements;
+                index++;
+                //System.out.println(index);
+            }
+        }
+
+            //System.out.println(output);
+            return output;
     }
 
     /**
@@ -19,7 +33,15 @@ public class MultiplesDeleter {
      * given an array of integers, named `ints` return an identical array with odds removed
      */
     public Integer[] deleteOdds(Integer[] ints) {
-        return null;
+        Integer[] output = new Integer[ints.length];
+        int index = 0;
+        for(int elements : ints) {
+            if(elements % 2 ==0) {
+                output[index] = elements;
+                index++;
+            }
+        }
+        return output;
     }
 
     /**
@@ -38,6 +60,7 @@ public class MultiplesDeleter {
      * given an array of integers, named `ints` return an identical array with numbers indivisible by `multiple` removed
      */
     public Integer[] deleteMultiplesOfN(Integer[] ints, int multiple) {
+
         return null;
     }
 }
