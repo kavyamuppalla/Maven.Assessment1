@@ -37,7 +37,6 @@ public class ArrayUtils {
      * Given an array of objects, name `objectArray`, and an object `objectToRemove`, return an array of objects with identical contents excluding `objectToRemove`
      */
     public static Object[] removeValue(Object[] objectArray, Object objectToRemove) {
-        
         return null;
     }
 
@@ -89,12 +88,8 @@ public class ArrayUtils {
      * given two arrays `objectArray` and `objectArrayToAdd`, return an array containing all elements in `objectArray` and `objectArrayToAdd`
      */
     public static Object[] mergeArrays(Object[] objectArray, Object[] objectArrayToAdd) {
-        Object[][] result = new Object[objectArray.length + objectArrayToAdd.length][];
-        System.arraycopy(objectArray, 0, result, 0, objectArrayToAdd.length);
-        System.arraycopy(objectArrayToAdd, 0, result, objectArray.length, objectArrayToAdd.length);
-        return result;
 
-
+        return null;
 
     }
 }

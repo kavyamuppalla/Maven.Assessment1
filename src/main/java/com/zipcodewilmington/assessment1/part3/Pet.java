@@ -43,7 +43,7 @@ public abstract class Pet implements Animal {
      * @return name of this pet
      */
     public String getName() {
-    return this.name;
+    return name;
 
     }
 
@@ -66,6 +66,7 @@ public abstract class Pet implements Animal {
     /**
      * @return PetOwner object whose composite `pets` collection contains this Pet instance
      */
+    //Pet[] pets = new Pet[5];
     public PetOwner getOwner() {
 
         return null;

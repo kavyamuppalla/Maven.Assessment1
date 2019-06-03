@@ -17,7 +17,7 @@ public class Cat extends Pet {
      * @param age age of this Cat
      */
     public Cat(Integer age) {
-         this.age = Integer.MAX_VALUE;
+         this.age = age;
     }
 
     /**

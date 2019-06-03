@@ -19,7 +19,7 @@ public class Dog extends Pet {
      */
     public Dog(Integer age) {
 
-        this.age = Integer.MAX_VALUE;
+        this.age = age;
     }
 
     /**
